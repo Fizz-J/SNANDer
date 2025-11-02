@@ -4,7 +4,7 @@ name: Build Application for Windows
 # Workflow's trigger
 on:
   push:
-    tags:
+   branches:
       - '*'
 
 # Workflow's jobs
